@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-08T13:58:09 IST" name="Green-Kart-Automation" finished-at="2025-04-08T13:58:32 IST" duration-ms="23197">
+    <groups>
+      <group name="regression">
+        <method signature="VegetableTest.flowone(java.util.HashMap)[pri:0, instance:greenkart.tests.VegetableTest@62ddbd7e]" name="flowone" class="greenkart.tests.VegetableTest"/>
+        <method signature="VegetableTest.flowtwo()[pri:0, instance:greenkart.tests.VegetableTest@62ddbd7e]" name="flowtwo" class="greenkart.tests.VegetableTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="VegetableTest.flowone(java.util.HashMap)[pri:0, instance:greenkart.tests.VegetableTest@62ddbd7e]" name="flowone" class="greenkart.tests.VegetableTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-04-08T13:58:09 IST" name="Test-1" finished-at="2025-04-08T13:58:32 IST" duration-ms="23197">
+      <class name="greenkart.tests.VegetableTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:greenkart.tests.VegetableTest@62ddbd7e]" started-at="2025-04-08T13:58:09 IST" name="launchApplication" finished-at="2025-04-08T13:58:12 IST" duration-ms="2538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="flowone(java.util.HashMap)[pri:0, instance:greenkart.tests.VegetableTest@62ddbd7e]" started-at="2025-04-08T13:58:12 IST" name="flowone" data-provider="getData" finished-at="2025-04-08T13:58:30 IST" duration-ms="18092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Brocolli - 1 Kg=2, Ladyfingure=2, Tomato - 1 Kg=3, Carrot - 1 Kg=4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flowone -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:greenkart.tests.VegetableTest@62ddbd7e]" started-at="2025-04-08T13:58:30 IST" name="closeBrowser" finished-at="2025-04-08T13:58:30 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:greenkart.tests.VegetableTest@62ddbd7e]" started-at="2025-04-08T13:58:30 IST" name="launchApplication" finished-at="2025-04-08T13:58:32 IST" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="flowtwo()[pri:0, instance:greenkart.tests.VegetableTest@62ddbd7e]" started-at="2025-04-08T13:58:32 IST" name="flowtwo" finished-at="2025-04-08T13:58:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flowtwo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:greenkart.tests.VegetableTest@62ddbd7e]" started-at="2025-04-08T13:58:32 IST" name="closeBrowser" finished-at="2025-04-08T13:58:32 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- greenkart.tests.VegetableTest -->
+    </test> <!-- Test-1 -->
+  </suite> <!-- Green-Kart-Automation -->
+</testng-results>
