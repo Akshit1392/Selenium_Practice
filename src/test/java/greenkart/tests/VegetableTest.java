@@ -58,10 +58,6 @@ public class VegetableTest extends BaseTest{
 	public void flowfive() {
 		System.out.println("Testing for end to end test cases");
 	}
-	@Test(groups = {"end"})
-	public void flowsix() {
-		System.out.println("Testing for end to end test cases");
-	}
 
 	@DataProvider
 	public Object[][] getData() throws IOException {
